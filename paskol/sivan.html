@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>סיוון — מרחב פ"סקול חברתי</title>
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--sat:#A830A0;--light:#F0B8E8;--mid:#C858C0;--bg:#FDF0FC;--txt:#480838;--yt-sat:#C0392B;--yt-light:#FDE8E6;--yt-mid:#E57368}
+body{font-family:'Heebo',Arial,sans-serif;direction:rtl;background:#F5F5F1;color:#2C2C2A;min-height:100vh}
+header{background:var(--sat);padding:24px 32px 26px;position:relative;overflow:hidden}
+header::before{content:'';position:absolute;top:-70px;left:-70px;width:240px;height:240px;border-radius:50%;background:rgba(255,255,255,0.1)}
+header::after{content:'';position:absolute;bottom:-50px;right:30px;width:180px;height:180px;border-radius:50%;background:rgba(255,255,255,0.07)}
+.hinner{position:relative;z-index:1;display:flex;align-items:flex-start;justify-content:space-between;gap:16px}
+.month{font-size:48px;font-weight:800;color:#fff;letter-spacing:-1.5px;line-height:1}
+.series{font-size:13px;color:rgba(255,255,255,0.85);margin-top:7px}
+.logo-area{text-align:left;font-size:11px;color:rgba(255,255,255,0.6);line-height:1.9;flex-shrink:0}
+main{max-width:720px;margin:0 auto;padding:24px 24px 48px}
+.top-row{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px}
+.block{background:#fff;border-radius:14px;border:1.5px solid #EEEEE8;padding:16px 18px;display:flex;flex-direction:column}
+.block-header{display:flex;align-items:center;gap:9px;margin-bottom:12px;padding-bottom:11px;border-bottom:1px solid #F0F0EA}
+.block-icon{width:32px;height:32px;border-radius:9px;display:flex;align-items:center;justify-content:center;font-size:15px;font-weight:700;flex-shrink:0}
+.block-icon.paskol{background:var(--light);color:var(--txt)}
+.block-icon.youtube{background:var(--yt-light);color:var(--yt-sat)}
+.block-icon.prac{background:var(--light);color:var(--txt)}
+.block-title{font-size:13.5px;font-weight:700}
+.block-title.paskol{color:var(--sat)}
+.block-title.youtube{color:var(--yt-sat)}
+.block-title.prac{color:var(--sat)}
+.songs-list{display:flex;flex-direction:column;gap:7px;flex:1}
+.song-card{display:flex;align-items:center;gap:11px;padding:9px 11px;border-radius:9px;text-decoration:none;color:inherit;transition:background .15s}
+.song-card.paskol:hover{background:var(--bg)}
+.song-card.youtube:hover{background:#FEF5F5}
+.song-num{width:26px;height:26px;border-radius:50%;font-size:11px;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.song-num.paskol{background:var(--light);color:var(--txt)}
+.song-num.youtube{background:var(--yt-light);color:var(--yt-sat)}
+.song-name{flex:1;font-size:13.5px;font-weight:600;color:#2C2C2A}
+.song-arrow{font-size:13px;flex-shrink:0}
+.song-arrow.paskol{color:var(--mid)}
+.song-arrow.youtube{color:var(--yt-mid)}
+.practices-list{display:flex;flex-direction:column;gap:7px;flex:1}
+.practice-card{background:var(--bg);border-radius:9px;border:1.5px solid var(--light);padding:10px 13px;display:flex;align-items:center;gap:11px;text-decoration:none;color:inherit;transition:border-color .15s}
+.practice-card:hover{border-color:var(--sat)}
+
+.prac-num{font-size:14px;color:var(--mid);flex-shrink:0;width:20px;text-align:center}
+.prac-label{flex:1;font-size:13px;font-weight:600;color:var(--sat)}
+.prac-hint{font-size:10.5px;color:#BBB;margin-top:1px}
+.prac-arrow{color:var(--mid);font-size:13px}
+.yt-block{background:#fff;border-radius:14px;border:1.5px solid #EEEEE8;padding:16px 18px}
+footer{text-align:center;padding:16px 16px 26px;font-size:11px;color:#AAA;margin-top:4px}
+footer strong{color:var(--sat)}
+</style>
+<style id="mobile-fix">
+@media (max-width:700px){
+ header{padding:18px 16px 20px}
+ .hinner{flex-direction:column;gap:10px}
+ .logo-area{text-align:right}
+ .main-title{font-size:26px}
+ .month{font-size:40px}
+ .cols,.top-row{grid-template-columns:1fr !important}
+ body>div[style*="border-bottom"]{padding:12px 16px !important}
+ body>div[style*="border-bottom"]>div{flex-direction:column !important;gap:10px !important;font-size:14px !important;text-align:right !important}
+ body>div[style*="border-bottom"]>div>div{padding:0 0 10px !important;border-left:none !important;border-bottom:1px solid #E0E0D8}
+ body>div[style*="border-bottom"]>div>div:last-child{border-bottom:none;padding-bottom:0 !important}
+ main{padding:16px 14px 32px}
+ .quote-banner{margin:0 0 16px !important}
+ .qt{font-size:15px}
+ .col-head{font-size:16px}
+ .col-head-sub{font-size:13px}
+ .card{padding:11px 13px}
+ .card-title{font-size:16px}
+ .card-body{font-size:14.5px}
+ .block,.yt-block{padding:14px}
+ .block-title{font-size:16px}
+ .song-name{font-size:15.5px}
+ .prac-label{font-size:15px}
+ .prac-hint{font-size:12.5px}
+ footer{justify-content:center !important;text-align:center;padding:16px 14px 24px !important;font-size:12.5px}
+ img,iframe{max-width:100%}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="hinner">
+    <div><div class="month">סיוון</div><div class="series">מרחב פ"סקול חברתי</div></div>
+    <div class="logo-area">משרד החינוך<br>אגף בכיר יסודי<br>המחלקה לחיים ולחינוך בחברה</div>
+  </div>
+</header>
+<main>
+  <div class="top-row">
+    <div class="block">
+      <div class="block-header">
+        <div class="block-icon paskol">♪</div>
+        <div><div class="block-title paskol">שירי הפ"סקול החברתי</div></div>
+      </div>
+      <div class="songs-list"><a class="song-card paskol" href="https://paskol-chevrati.co.il/songs/%d7%90%d7%a0%d7%99-%d7%95%d7%90%d7%aa%d7%94/" target="_blank"><div class="song-num paskol">1</div><div class="song-name">אני ואתה</div><div class="song-arrow paskol">←</div></a><a class="song-card paskol" href="https://paskol-chevrati.co.il/songs/4071-2/" target="_blank"><div class="song-num paskol">2</div><div class="song-name">כמה טוב שנפגשנו</div><div class="song-arrow paskol">←</div></a><a class="song-card paskol" href="https://paskol-chevrati.co.il/songs/4030-2/" target="_blank"><div class="song-num paskol">3</div><div class="song-name">שבט אחים ואחיות</div><div class="song-arrow paskol">←</div></a><a class="song-card paskol" href="https://paskol-chevrati.co.il/songs/%D7%99%D7%91%D7%95%D7%90-%D7%9C%D7%98%D7%95%D7%91%D7%94/" target="_blank"><div class="song-num paskol">4</div><div class="song-name">יבוא לטובה</div><div class="song-arrow paskol">←</div></a></div>
+    </div>
+    <div class="block">
+      <div class="block-header">
+        <div class="block-icon prac">🔹</div>
+        <div><div class="block-title prac">פרקטיקות פ"סקול חברתי</div></div>
+      </div>
+      <div class="practices-list"><a class="practice-card" href="https://paskol-chevrati.co.il/practices/%d7%98%d7%95%d7%95%d7%99%d7%9d-%d7%99%d7%95%d7%9d/" target="_blank"><div class="prac-num">◆</div><div><div class="prac-label">טווים יום</div></div><div class="prac-arrow">←</div></a><a class="practice-card" href="https://paskol-chevrati.co.il/wp-content/uploads/2025/03/Social-stories-3.pdf" target="_blank"><div class="prac-num">◆</div><div><div class="prac-label">פותחים בסיפור</div></div><div class="prac-arrow">←</div></a></div>
+    </div>
+  </div>
+</main>
+<footer style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;padding:16px 24px 24px;border-top:1px solid #E8E8E0;"><span><strong>משרד החינוך</strong> | אגף בכיר יסודי | המחלקה לחיים ולחינוך בחברה</span><a href="https://garbymary.my.canva.site/gant2027" target="_blank" style="display:inline-flex;align-items:center;gap:7px;background:#fff;border:1.5px solid #D0D0C8;border-radius:8px;padding:7px 16px;font-size:12px;font-weight:600;color:#555;text-decoration:none;" onmouseover="this.style.borderColor='#A830A0'" onmouseout="this.style.borderColor='#D0D0C8'">← חזרה ללוח התכנון החודשי</a></footer>
+</body>
+</html>
