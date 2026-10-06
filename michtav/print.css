@@ -1,0 +1,28 @@
+/* הגדרות ההדפסה ל-PDF של המכתב החודשי.
+   משוחזרות לפי המידות של cheshvan.pdf המקורי (עמוד A4 אחד).
+   משמשות רק ליצירת ה-PDF, לא לדף באתר. */
+@page{size:595.92pt 842.88pt;margin:0}
+html,body{background:#fff;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+body{font-size:10.69pt;line-height:1.614;font-family:Heebo,Arial,sans-serif}
+/* Arial לפיסוק: המקור הודפס עם Liberation Sans, שזהה לו במידות */
+.sheet{max-width:none;min-height:0;box-shadow:none;width:595.92pt;height:842.88pt;position:relative;overflow:hidden}
+
+.band{height:189.7pt;padding:34.4pt 50.7pt 0 51.5pt}
+.band::after{width:198pt;height:198pt;top:-72.8pt;left:-44.5pt}
+.heb{font-size:27pt;line-height:28.35pt}
+.lat{font-size:12pt;line-height:21pt;margin-top:5.15pt}
+.vicon{width:72pt;height:74.3pt;padding:4.3pt}
+.value{margin-top:19.9pt;font-size:12.49pt;line-height:18.4pt;padding:7.1pt 19pt;border-width:1.1pt}
+
+main{padding:29.4pt 50.6pt 0 52pt}
+p{margin-bottom:9.75pt}
+.greet{font-size:12.19pt;margin-bottom:14.3pt}
+.hl,em{color:#a8601f}
+a{color:#a8601f;border-bottom:.75pt solid #e3bf99}
+.sign{margin-top:14.25pt;padding-top:0;border-top:0}
+.sign .n{font-size:12.49pt;line-height:19.5pt;margin-top:7.9pt}
+.sign .team{font-size:10.69pt;margin-top:.3pt}
+
+footer{position:absolute;left:0;right:0;top:762.8pt;margin:0;padding:16.5pt 50.7pt 0 51.5pt;border-top:.75pt solid #e9ded1;flex-wrap:nowrap}
+footer span{font-size:8.6pt;line-height:13.5pt;color:#9a8c80}
+footer img{height:45.8pt}
