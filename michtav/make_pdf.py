@@ -23,8 +23,14 @@ if __name__ == "__main__":
     month = sys.argv[1]
     out = here / f"{month}.pdf"
     build((here / f"{month}.html").read_text(encoding="utf-8"), out)
-    import pypdf
-    n = len(pypdf.PdfReader(out).pages)
-    print(f"{out.name}: {n} page(s)")
-    if n != 1:
+    import fitz
+    doc = fitz.open(out)
+    print(f"{out.name}: {len(doc)} page(s)")
+    if len(doc) != 1:
         sys.exit("ERROR: PDF is not a single page")
+    # העמוד בגובה קבוע, אז טקסט ארוך מדי לא יוצר עמוד שני אלא נעלם מתחת לפוטר
+    FOOTER_TOP = 762.8
+    bottom = max(b[3] for b in doc[0].get_text("blocks") if b[1] < FOOTER_TOP)
+    print(f"text ends at {bottom:.0f}pt, footer line at {FOOTER_TOP}pt")
+    if bottom > FOOTER_TOP - 12:
+        sys.exit("ERROR: letter too long, text reaches the footer")
