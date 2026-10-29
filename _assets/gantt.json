@@ -1,0 +1,102 @@
+{
+  "source": "לוח הגאנט תשפ\"ז, Canva design DAHKMqz8BbU, https://garbymary.my.canva.site/gant2027",
+  "nose_shnati": "שורשי עמ\"י — זהות, יזמות ותרבות",
+  "colors": {"אוקטובר": "#C87830", "נובמבר": "#FFE365", "דצמבר": "#7FBF4D"},
+  "months": [
+    {"lat": "ספטמבר", "heb": "אלול–תשרי",
+     "events": ["ראש השנה", "צום גדליה", "יום כיפור", "סוכות", "שמחת תורה"],
+     "materials": [
+       {"t": "מסע החופשה שלי", "u": "https://meyda.education.gov.il/files/yesodi/Hevra/NewMafteachHalev/masa_hufsha_mate.pdf"},
+       {"t": "על קו הזינוק, לכיתות א-ו", "u": "https://meyda.education.gov.il/files/Pop/0files/magal_hashana/Beginnings.pdf"},
+       {"t": "נקודות פתיחה", "u": "https://meyda.education.gov.il/files/yesodi/Hevra/NewMafteachHalev/ptihat_shana/gluya.pdf"}],
+     "merhav_halev": "https://garbym-create.github.io/gant-hodshi/peilut/tishrei.html",
+     "merhav_paskol": "https://garbym-create.github.io/gant-hodshi/paskol/tishrei.html"},
+
+    {"lat": "אוקטובר", "heb": "תשרי–חשוון", "erech": "שונות",
+     "events": ["יום הזיכרון לאירועי השבעה באוקטובר", "שבוע העליות", "יום הבחירות", "יום הזיכרון לרצח יצחק רבין"],
+     "materials": [
+       {"t": "שבוע העליות, עולים יחד", "u": "https://meyda.education.gov.il/files/yesodi/Hevra/aliyot/olimyachad.pdf"},
+       {"t": "מתווה חינוכי לציון השבעה באוקטובר", "u": "https://meyda.education.gov.il/files/yesodi/Hevra/october7/teces7-10.pdf"},
+       {"t": "הנהגת תלמידים, מדריך מעשי לרכזת החברתית", "u": "https://meyda.education.gov.il/files/yesodi/MafteachHalev/meoravothevratit/manhigut_meoravut_perek2.pdf"},
+       {"t": "בוחרים, מסע ערכי אל עולם הבחירות", "u": "https://meyda.education.gov.il/files/yesodi/MafteachHalev/meoravothevratit/boharim_massa_erki.pdf"},
+       {"t": "יום הזיכרון לרצח יצחק רבין", "u": "https://pop.education.gov.il/maagal_hashana/hagim_yamim_meyuchadim/yom-zikaron-rabin/"}],
+     "merhav_halev": "https://garbym-create.github.io/gant-hodshi/peilut/cheshvan.html",
+     "merhav_paskol": "https://garbym-create.github.io/gant-hodshi/paskol/cheshvan.html",
+     "hodaot_mate": "https://garbym-create.github.io/gant-hodshi/michtav/cheshvan.pdf"},
+
+    {"lat": "נובמבר", "heb": "חשוון–כסלו", "erech": "שונות",
+     "events": ["שבוע בטיחות", "חג הסיגד", "יום הסובלנות הבינלאומי", "יום דוד בן גוריון", "יום זכויות הילד", "יום ההוקרה לפצועי צה\"ל ונפגעי פעולות האיבה", "כ\"ט בנובמבר"],
+     "materials": [
+       {"t": "השבוע לבטיחות ילדים ונוער במערכת החינוך", "u": "https://pop.education.gov.il/maagal_hashana/yamim-meyuchadim/safety-week/"},
+       {"t": "חג הסיגד", "u": "https://pop.education.gov.il/tchumey_daat/hinuch-hevrati/calendar-events/sigd/#pos_321815"},
+       {"t": "יום הסובלנות הבינלאומי", "u": "https://pop.education.gov.il/maagal_hashana/yamim-meyuchadim/yom-sovlanut/"},
+       {"t": "יום זכויות הילד", "u": "https://pop.education.gov.il/maagal_hashana/yamim-meyuchadim/yom-zchuyot-hayeled/"},
+       {"t": "יום ההוקרה לפצועי צה\"ל ונפגעי פעולות האיבה", "u": "https://pop.education.gov.il/tchumey_daat/heart-key/elementary/pedagogy/year-circle/"},
+       {"t": "יום דוד בן גוריון", "u": "https://bgh.org.il/education/#section-tools"}],
+     "merhav_halev": "https://garbym-create.github.io/gant-hodshi/peilut/kislev.html",
+     "merhav_paskol": "https://garbym-create.github.io/gant-hodshi/paskol/kislev.html"},
+
+    {"lat": "דצמבר", "heb": "כסלו–טבת",
+     "events": ["היום הבינלאומי לשוויון זכויות לאנשים עם מוגבלות (3.12)", "חנוכה (4–12.12)", "יום זכויות האדם (10.12)", "צום עשרה בטבת (20.12)", "יום השפה העברית (31.12)", "יום המורה וצוותי חינוך"],
+     "materials": [
+       {"t": "חנוכה, כשהנשמה מאירה", "u": "https://meyda.education.gov.il/files/yesodi/Hevra/kshehaneshama_meira.pdf"},
+       {"t": "הפנאי כהזדמנות להתפתחות, תהליכי רפלקציה אודות החופשה", "u": "https://meyda.education.gov.il/files/yesodi/Hevra/NewMafteachHalev/HANUCA_REFLEKTZIA.pdf"},
+       {"t": "היום הבינלאומי לשוויון זכויות לאנשים עם מוגבלות", "u": "https://pop.education.gov.il/maagal_hashana/yamim-meyuchadim/shivyon-zchuyot/"},
+       {"t": "יום זכויות האדם", "u": "https://pop.education.gov.il/headquarters-civil-education-coexistence/elementary-civil-rights-day/"},
+       {"t": "יום השפה העברית", "u": "https://pop.education.gov.il/maagal_hashana/yamim-meyuchadim/yom-safa-ivrit/"},
+       {"t": "יום המורה וצוותי חינוך", "u": "https://pop.education.gov.il/maagal_hashana/yamim-meyuchadim/teachers-day/"}],
+     "baggy": "בעמוד דצמבר קישורי המרחבים מצביעים עדיין על חשוון ודורשים תיקון"},
+
+    {"lat": "ינואר", "heb": "טבת–שבט",
+     "events": ["שבוע החלל הישראלי", "שבוע המוגנות", "ראש השנה לאילנות", "שבוע ההצדעה לאנשי ונשות החינוך"],
+     "materials": [
+       {"t": "שבוע החלל הישראלי", "u": "https://pop.education.gov.il/maagal_hashana/yamim-meyuchadim/shvua-halal-israeli-tashaf/"},
+       {"t": "שבוע המוגנות, שפ\"ינט", "u": "https://shefi.education.gov.il/top-topics/sexual-abuse-in-children/week-for-promotion/"},
+       {"t": "ראש השנה לאילנות", "u": "https://pop.education.gov.il/tchumey_daat/heart-key/elementary/pedagogy/year-circle/#pos_440028"},
+       {"t": "צוות משימה ירוק", "u": "קישור יפורסם בקרוב"}]},
+
+    {"lat": "פברואר", "heb": "שבט–אדר א׳", "erech": "נתינה",
+     "events": ["חודש הבינה המלאכותית", "שבוע גלישה בטוחה ברשת", "יום המשפחה"],
+     "materials": [
+       {"t": "חודש הבינה המלאכותית", "u": "https://pop.education.gov.il/tchumey_daat/heart-key/elementary/pedagogy/bina-heart/"},
+       {"t": "שבוע גלישה בטוחה ברשת, שפ\"ינט", "u": "https://shefi.education.gov.il/top-topics/prevention-of-harm-105/national-safe-surfing-week/"},
+       {"t": "בינה קטנה בלב, פרק 1", "u": "https://meyda.education.gov.il/files/yesodi/Hevra/NewMafteachHalev/LEHARBOT_BCHAVERUYOT.pdf"},
+       {"t": "בינה קטנה בלב, פרק 2", "u": "https://meyda.education.gov.il/files/yesodi/Hevra/NewMafteachHalev/bina_2.pdf"},
+       {"t": "בינה קטנה בלב, פרק 3", "u": "https://meyda.education.gov.il/files/yesodi/Hevra/NewMafteachHalev/empathy.pdf"},
+       {"t": "יום המשפחה", "u": "https://pop.education.gov.il/tchumey_daat/hinuch-hevrati/calendar-events/family-day/"}]},
+
+    {"lat": "מרץ", "heb": "אדר א׳–אדר ב׳", "erech": "נתינה",
+     "events": ["תענית אסתר", "פורים", "יום האישה הבינלאומי", "יום המעשים הטובים", "שבוע התפוצות"],
+     "materials": [
+       {"t": "שבוע התפוצות", "u": "https://meyda.education.gov.il/files/yesodi/Hevra/NewMafteachHalev/shvua_tfutzot/tfutzot_ptica.pdf"},
+       {"t": "יום האישה הבינלאומי", "u": "https://pop.education.gov.il/maagal_hashana/yamim-meyuchadim/yom-iesha-binleomi/"},
+       {"t": "יום המעשים הטובים", "u": "https://pop.education.gov.il/maagal_hashana/yamim-meyuchadim/good-deeds-day/"},
+       {"t": "פורים, איש לרעהו, מאגר פעילויות", "u": "https://view.genially.com/65b20b1711c2fd001431471d"},
+       {"t": "פורים, מאחורי המסכות בקרקס", "u": "https://meyda.education.gov.il/files/yesodi/shaagat_haari/documents/behind_the_masks.pdf"}]},
+
+    {"lat": "אפריל", "heb": "אדר ב׳–ניסן",
+     "events": ["חודש התקומה והגבורה", "יום כדור הארץ", "חופשת פסח"],
+     "materials": [
+       {"t": "לעשות סדר חברתי", "u": "https://canva.link/tmier8d7z5ohrp9"},
+       {"t": "הפנאי כהזדמנות להתפתחות", "u": "https://meyda.education.gov.il/files/yesodi/Hevra/NewMafteachHalev/HANUCA_REFLEKTZIA.pdf"},
+       {"t": "חודש התקומה והגבורה", "u": "https://pop.education.gov.il/tchumey_daat/global-subjects/rebirth/"},
+       {"t": "יום כדור הארץ", "u": "https://pop.education.gov.il/maagal_hashana/yamim-meyuchadim/earth-day/"}]},
+
+    {"lat": "מאי", "heb": "ניסן–אייר",
+     "events": ["יום השואה והגבורה", "יום הזיכרון", "יום העצמאות", "ל\"ג בעומר"],
+     "materials": [
+       {"t": "יום הזיכרון, ערכת זיכרון ותקומה", "u": "https://canva.link/aoxjs78vd5u4rhj"},
+       {"t": "לקראת הכנת טקס יום השואה והגבורה, כיתות ה-ו", "u": "https://meyda.education.gov.il/files/yesodi/Hevra/tkuma/tekes_yom_hashoa.pdf"},
+       {"t": "הנושא המרכזי ליום הזיכרון לשואה ולגבורה תשפ\"ז", "u": "https://www.yadvashem.org/he/remembrance/archive/central-theme/human-networks-during-the-holocaust.html"}]},
+
+    {"lat": "יוני", "heb": "אייר–סיוון",
+     "events": ["יום ירושלים (4.6)", "שבועות (11.6)", "יום האחדות", "יום ההורה המתנדב", "סיום שנת הלימודים"],
+     "materials": [
+       {"t": "ערכים מסביב לשעון", "u": "https://meyda.education.gov.il/files/Pop/0files/key-heart/Elementary/pedagogy/value-social-education.pdf"},
+       {"t": "יום האחדות, בוחרים באחדות", "u": "https://meyda.education.gov.il/files/yesodi/Hevra/NewMafteachHalev/achdut/yom_haachdut.pdf"},
+       {"t": "סיום שנת הלימודים, סיום ופרידה", "u": "https://pop.education.gov.il/tchumey_daat/heart-key/elementary/pedagogy/year-circle/#pos_419549"},
+       {"t": "בית הספר של החופש הגדול", "u": "https://meyda.education.gov.il/files/Pop/0files/key-heart/Elementary/pedagogy/valuable-social-activities.pdf"},
+       {"t": "יום ירושלים", "u": "https://pop.education.gov.il/maagal_hashana/hagim_yamim_meyuchadim/yerushalyim/"},
+       {"t": "חג שבועות", "u": "https://pop.education.gov.il/maagal_hashana/hagim_yamim_meyuchadim/shavuot/"}]}
+  ]
+}
