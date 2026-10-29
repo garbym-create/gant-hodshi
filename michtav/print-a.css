@@ -11,7 +11,8 @@ body{font-size:12.6pt;line-height:1.7;font-family:Heebo,Arial,sans-serif}
 .heb{font-size:32px}
 .lat{font-size:12px}
 .value{margin-top:13px;font-size:12px;padding:6px 16px}
-main{padding:22px 26px 6px;flex:1}
+main{padding:22px 26px 6px;flex:1 0 auto}
+.band,footer{flex-shrink:0}
 p{margin-bottom:12px}
 .greet{font-size:12.6pt;margin-bottom:11px}
 .sign{margin-top:13px;padding-top:11px}
